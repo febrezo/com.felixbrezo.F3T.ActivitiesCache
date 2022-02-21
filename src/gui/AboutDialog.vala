@@ -40,7 +40,7 @@ namespace AppWidgets {
           	this.documenters = {"Félix Brezo (contacto@felixbrezo.com)"};
           	this.translator_credits = _("Félix Brezo (contacto@felixbrezo.com)");
 
-          	this.program_name = _("GraniteTemplate");
+          	this.program_name = _("ActivitiesCache");
           	this.comments = _("Just another template");
           	this.copyright = _("Copyright © 2020-2022 Félix Brezo");
           	this.version = _("1.0");
@@ -48,7 +48,7 @@ namespace AppWidgets {
           	this.license = "GPLv3.0+ (https://www.gnu.org/licenses/gpl-3.0.txt)";
           	this.wrap_license = true;
 
-          	this.website = _("https://github.com/febrezo/GraniteTemplate");
+          	this.website = _("https://github.com/febrezo/ActivitiesCache");
           	this.website_label = _("Website");
 
             this.response.connect ((response_id) => {

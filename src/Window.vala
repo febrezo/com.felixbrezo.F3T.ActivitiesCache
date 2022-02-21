@@ -22,7 +22,7 @@
 using AppUtils;
 using AppWidgets;
 
-namespace GraniteTemplate {
+namespace ActivitiesCache {
     public class Window : Gtk.ApplicationWindow {
         // Window elements
         private HeaderBar header_bar;
@@ -47,7 +47,7 @@ namespace GraniteTemplate {
             this.default_height = 800;
             this.default_width = 1024;
             this.header_bar = new HeaderBar ();
-            this.toast = new Granite.Widgets.Toast (_("GraniteTemplate"));
+            this.toast = new Granite.Widgets.Toast (_("ActivitiesCache"));
 
             // Define views
             // ------------
@@ -57,7 +57,7 @@ namespace GraniteTemplate {
             // --------------------
             this.header_bar.add_operation_btn.clicked.connect (on_add_operation_clicked);
             this.header_bar.new_btn.clicked.connect (on_new_clicked);
-            this.header_bar.speak_btn.clicked.connect (on_speak_clicked);
+            this.header_bar.export_btn.clicked.connect (on_export_clicked);
             this.header_bar.settings_menu_btn.clicked.connect (on_menu_clicked);
             this.header_bar.menu.about_dialog = new AboutDialog (this);
 
@@ -96,9 +96,8 @@ namespace GraniteTemplate {
             show_all ();
         }
 
-        private void on_speak_clicked () {
-            var command4 = "paplay /app/share/icons/bachfugue.wav ";
-            print ("Sound: %s\n".printf (command4));
+        private void on_export_clicked () {
+            info ("Export button clicked.");
         }
 
         private void on_add_operation_clicked () {

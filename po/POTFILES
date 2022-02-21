@@ -1,5 +1,5 @@
-data/com.felixbrezo.GraniteTemplate.desktop.in
-data/com.felixbrezo.GraniteTemplate.appdata.xml.in
+data/com.felixbrezo.F3T.ActivitiesCache.desktop.in
+data/com.felixbrezo.F3T.ActivitiesCache.appdata.xml.in
 src/Application.vala
 src/Window.vala
 src/core/Clipboard.vala

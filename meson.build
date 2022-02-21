@@ -1,5 +1,5 @@
 # Project name and programming language
-project('com.felixbrezo.GraniteTemplate', 'vala', 'c')
+project('com.felixbrezo.F3T.ActivitiesCache', 'vala', 'c')
 
 # Include the translations module
 i18n = import('i18n')
@@ -19,11 +19,6 @@ subdir('po')
 # TODO: remove in favour of subdir for easier maintenance
 install_data(
     join_paths('data', meson.project_name() + '.svg'),
-    install_dir: join_paths(get_option('datadir'), 'icons')
-)
-
-install_data(
-    join_paths('data', 'bachfugue.wav'),
     install_dir: join_paths(get_option('datadir'), 'icons')
 )
 

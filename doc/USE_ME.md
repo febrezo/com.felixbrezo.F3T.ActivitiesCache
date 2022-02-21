@@ -4,8 +4,8 @@ This repo is thought to be used as a template. It can be cloned easily and teste
 First of all, let's test it using `git clone`.
 
 ```
-git clone https://github.com/febrezo/GraniteTemplate.git
-cd GraniteTemplate
+git clone https://github.com/febrezo/ActivitiesCache.git
+cd ActivitiesCache
 ```
 
 ## Manual installation
@@ -33,25 +33,25 @@ The `po` folder contains the information needed to localize the application:
 Once understood, it's time to localize the application by building the templates for each language. Inside the `build` folder, run this command to build the empty internationalization template:
 
 ```
-ninja com.felixbrezo.GraniteTemplate-pot
+ninja com.felixbrezo.F3T.ActivitiesCache-pot
 ```
 
 And this to update a new `.po` file within the previously created template for each language specified in the `LINGUAS` file:
 
 ```
-ninja com.felixbrezo.GraniteTemplate-update-po
+ninja com.felixbrezo.F3T.ActivitiesCache-update-po
 ```
 
 It's now yout turn to explore the contents and update the translations if you want it. For example, this is an example of two translated strings from the `es.po` file.
 
 ```
 …
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:5
-#: data/com.felixbrezo.GraniteTemplate.appdata.xml.in:7
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:5
+#: data/com.felixbrezo.F3T.ActivitiesCache.appdata.xml.in:7
 msgid "Just another template"
 msgstr "Simplemente otra plantilla"
 
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:6
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:6
 msgid "A template for developing new Vala applications"
 msgstr "Una plantilla para desarrollar nuevas aplicaciones en Vala"
 …
@@ -69,7 +69,7 @@ To look like this:
 "Content-Type: text/plain; charset=UTF-8\n"
 ```
 
-Otherwise, you may find errors when running the `ninja com.felixbrezo.GraniteTemplate-update-po` command.
+Otherwise, you may find errors when running the `ninja com.felixbrezo.F3T.ActivitiesCache-update-po` command.
 
 
 ### Provide additional metadata for the launcher: the `data` folder
@@ -84,7 +84,7 @@ Once understood, it's time to build the application from the `build` folder and 
 
 ```
 ninja
-./com.felixbrezo.GraniteTemplate
+./com.felixbrezo.F3T.ActivitiesCache
 ```
 
 If you want to install it, try:
@@ -96,7 +96,7 @@ sudo ninja install
 The application will be ready to use in your system from your applications menu thanks to `desktop` file provided under the `data` folder or even using the terminal (note the absence of the `./` since the application is now installed):
 
 ```
-com.felixbrezo.GraniteTemplate
+com.felixbrezo.F3T.ActivitiesCache
 ```
 
 ### Automatic name customization: the `bin` folder
@@ -182,13 +182,13 @@ Note that the `.json` file in the repository points to a `git` repository which 
 ```
 …
 {
-    "name" : "com.felixbrezo.GraniteTemplate",
+    "name" : "com.felixbrezo.F3T.ActivitiesCache",
     "builddir" : true,
     "buildsystem" : "meson",
     "sources" : [
         {
             "type" : "git",
-            "path" : "https://github.com/febrezo/GraniteTemplate"
+            "path" : "https://github.com/febrezo/ActivitiesCache"
         }
     ]
 }
@@ -200,13 +200,13 @@ You may opt to something like this:
 ```
 …
 {
-    "name" : "com.felixbrezo.GraniteTemplate",
+    "name" : "com.felixbrezo.F3T.ActivitiesCache",
     "builddir" : true,
     "buildsystem" : "meson",
     "sources" : [
         {
             "type" : "git",
-            "path" : "/home/felix/Proyectos/com.felixbrezo.GraniteTemplate"
+            "path" : "/home/felix/Proyectos/com.felixbrezo.F3T.ActivitiesCache"
         }
     ]
 }
@@ -218,12 +218,12 @@ However, note that this approach uses the `git` manifest source. This is importa
 Once defined, you can now build the Flatpak:
 
 ```
-flatpak-builder build-dir com.felixbrezo.GraniteTemplate.json --force-clean
+flatpak-builder build-dir com.felixbrezo.F3T.ActivitiesCache.json --force-clean
 ```
 
 Or build and install for the current user (which does not require root permissions):
 
 ```
-flatpak-builder build-dir com.felixbrezo.GraniteTemplate.json --force-clean --install --user
-flatpak run com.felixbrezo.GraniteTemplate
+flatpak-builder build-dir com.felixbrezo.F3T.ActivitiesCache.json --force-clean --install --user
+flatpak run com.felixbrezo.F3T.ActivitiesCache
 ```

@@ -19,12 +19,12 @@
 * Authored by: Félix Brezo <contacto@felixbrezo.com>
 */
 
-namespace GraniteTemplate {
-    public class GraniteTemplateApp : Gtk.Application {
+namespace ActivitiesCache {
+    public class ActivitiesCacheApp : Gtk.Application {
 
-        public GraniteTemplateApp () {
+        public ActivitiesCacheApp () {
             Object (
-                application_id: "com.felixbrezo.GraniteTemplate",
+                application_id: "com.felixbrezo.F3T.ActivitiesCache",
                 flags: ApplicationFlags.FLAGS_NONE
             );
         }
@@ -35,7 +35,7 @@ namespace GraniteTemplate {
         }
 
         public static int main (string[] args) {
-            var app = new GraniteTemplateApp ();
+            var app = new ActivitiesCacheApp ();
             return app.run (args);
         }
     }

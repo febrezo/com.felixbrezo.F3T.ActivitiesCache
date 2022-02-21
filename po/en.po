@@ -1,13 +1,13 @@
-# English translations for com.felixbrezo.GraniteTemplate package.
-# Copyright (C) 2020 THE com.felixbrezo.GraniteTemplate'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.felixbrezo.GraniteTemplate package.
+# English translations for com.felixbrezo.F3T.ActivitiesCache package.
+# Copyright (C) 2020 THE com.felixbrezo.F3T.ActivitiesCache'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.felixbrezo.F3T.ActivitiesCache package.
 # Automatically generated, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.felixbrezo.GraniteTemplate\n"
+"Project-Id-Version: com.felixbrezo.F3T.ActivitiesCache\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 21:09+0100\n"
+"POT-Creation-Date: 2022-02-21 19:59+0100\n"
 "PO-Revision-Date: 2020-06-22 21:40+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,44 +17,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:4
-#: data/com.felixbrezo.GraniteTemplate.appdata.xml.in:6 src/Window.vala:50
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:4
+#: data/com.felixbrezo.F3T.ActivitiesCache.appdata.xml.in:6 src/Window.vala:50
 #: src/gui/AboutDialog.vala:43 src/gui/HeaderBar.vala:35
 #: src/gui/WelcomeView.vala:29
-msgid "GraniteTemplate"
-msgstr "GraniteTemplate"
+msgid "ActivitiesCache"
+msgstr "ActivitiesCache"
 
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:5
-#: data/com.felixbrezo.GraniteTemplate.appdata.xml.in:7
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:5
+#: data/com.felixbrezo.F3T.ActivitiesCache.appdata.xml.in:7
 #: src/gui/AboutDialog.vala:44
 msgid "Just another template"
 msgstr "Just another template"
 
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:6
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:6
 #, fuzzy
 msgid "A template for developing new Vala applications using Flatpak"
 msgstr "A template for developing new Vala applications"
 
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:9
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:9
 #, fuzzy
-msgid "com.felixbrezo.GraniteTemplate"
-msgstr "https://github.com/febrezo/GraniteTemplate/master/doc/support/en/"
+msgid "com.felixbrezo.F3T.ActivitiesCache"
+msgstr "https://github.com/febrezo/ActivitiesCache/master/doc/support/en/"
 
-#: data/com.felixbrezo.GraniteTemplate.desktop.in:12
+#: data/com.felixbrezo.F3T.ActivitiesCache.desktop.in:12
 #, fuzzy
 msgid "Development;Personal;"
 msgstr "Assets;Personal"
 
-#: data/com.felixbrezo.GraniteTemplate.appdata.xml.in:9
+#: data/com.felixbrezo.F3T.ActivitiesCache.appdata.xml.in:9
 #, fuzzy
 msgid "A template for developing new Vala applications using Flatpak."
 msgstr "A template for developing new Vala applications."
 
-#: src/Window.vala:112
+#: src/Window.vala:111
 msgid "Nothing done because something wrong happened"
 msgstr "Nothing done because something wrong happened"
 
-#: src/Window.vala:120
+#: src/Window.vala:119
 msgid "https://github.com/febrezo/valoro/master/doc/support/en/"
 msgstr "https://github.com/febrezo/valoro/master/doc/support/en/"
 
@@ -72,8 +72,8 @@ msgstr ""
 
 #: src/gui/AboutDialog.vala:51
 #, fuzzy
-msgid "https://github.com/febrezo/GraniteTemplate"
-msgstr "https://github.com/febrezo/GraniteTemplate/master/doc/support/en/"
+msgid "https://github.com/febrezo/ActivitiesCache"
+msgstr "https://github.com/febrezo/ActivitiesCache/master/doc/support/en/"
 
 #: src/gui/AboutDialog.vala:52
 msgid "Website"
@@ -84,7 +84,7 @@ msgid "Go to main window"
 msgstr "Go to main window"
 
 #: src/gui/HeaderBar.vala:61
-msgid "Speak something"
+msgid "Export table"
 msgstr ""
 
 #: src/gui/HeaderBar.vala:66
@@ -142,8 +142,8 @@ msgid "About…"
 msgstr ""
 
 #: src/gui/SettingsMenu.vala:89
-msgid "https://github.com/febrezo/GraniteTemplate/master/doc/support/en/"
-msgstr "https://github.com/febrezo/GraniteTemplate/master/doc/support/en/"
+msgid "https://github.com/febrezo/ActivitiesCache/master/doc/support/en/"
+msgstr "https://github.com/febrezo/ActivitiesCache/master/doc/support/en/"
 
 #: src/gui/WelcomeView.vala:30
 msgid "A sample application"

@@ -26,7 +26,7 @@ namespace AppWidgets {
         }
 
         construct {
-            this.title = _("GraniteTemplate");
+            this.title = _("ActivitiesCache");
             this.subtitle = _("A sample application");
             this.append ("document-new", _("Go to the main window"), _("The standard behaviour of the application"));
             this.append ("info", _("Looking for help?"), _("Get support from online resources"));

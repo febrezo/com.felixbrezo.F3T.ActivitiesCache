@@ -25,14 +25,14 @@ using AppWidgets;
 namespace AppWidgets {
     public class HeaderBar : Gtk.HeaderBar {
         public Gtk.Button new_btn;
-        public Gtk.Button speak_btn;
+        public Gtk.Button export_btn;
         public Gtk.Button add_operation_btn;
         public Gtk.Button settings_menu_btn;
         public SettingsMenu menu;
 
         public HeaderBar () {
             this.show_close_button = true;
-            this.title = _("GraniteTemplate");
+            this.title = _("ActivitiesCache");
             //this.subtitle = _();
 
             // Set Menu
@@ -56,10 +56,10 @@ namespace AppWidgets {
             new_btn.tooltip_text = _("Go to main window");
             this.pack_start (new_btn);
 
-            // Speak button
-            speak_btn = new Gtk.Button.from_icon_name ("audio-speakers", Gtk.IconSize.LARGE_TOOLBAR);
-            speak_btn.tooltip_text = _("Speak something");
-            this.pack_start (speak_btn);
+            // Export button
+            export_btn = new Gtk.Button.from_icon_name ("document-export", Gtk.IconSize.LARGE_TOOLBAR);
+            export_btn.tooltip_text = _("Export table");
+            this.pack_start (export_btn);
 
             // Menu button
             settings_menu_btn = new Gtk.Button.from_icon_name ("open-menu-symbolic", Gtk.IconSize.LARGE_TOOLBAR);

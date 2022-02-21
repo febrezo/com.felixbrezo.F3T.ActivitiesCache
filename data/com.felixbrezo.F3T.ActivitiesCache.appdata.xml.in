@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2020 Félix Brezo <felixbrezoðisroot.org> -->
 <component type="desktop">
-  <id>com.felixbrezo.GraniteTemplate</id>
+  <id>com.felixbrezo.F3T.ActivitiesCache</id>
   <metadata_license>GPLv3</metadata_license>
-  <name>GraniteTemplate</name>
+  <name>ActivitiesCache</name>
   <summary>Just another template</summary>
   <description>
     <p>A template for developing new Vala applications using Flatpak.</p>

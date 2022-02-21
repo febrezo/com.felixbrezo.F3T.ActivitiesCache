@@ -1,9 +1,9 @@
 {
-    "app-id" : "com.felixbrezo.GraniteTemplate",
+    "app-id" : "com.felixbrezo.F3T.ActivitiesCache",
     "runtime" : "io.elementary.Sdk",
     "runtime-version" : "6",
     "sdk" : "io.elementary.Sdk",
-    "command" : "com.felixbrezo.GraniteTemplate",
+    "command" : "com.felixbrezo.F3T.ActivitiesCache",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -11,7 +11,7 @@
         "--socket=wayland",
         "--filesystem=home",
         "--talk-name=org.gnome.SessionManager",
-        "--metadata=X-DConf=migrate-path=com/felixbrezo/GraniteTemplate/",
+        "--metadata=X-DConf=migrate-path=com/felixbrezo/ActivitiesCache/",
         "--socket=pulseaudio",
         "--device=dri"
     ],
@@ -24,7 +24,7 @@
     ],
     "modules" : [
         {
-            "name" : "com.felixbrezo.GraniteTemplate",
+            "name" : "com.felixbrezo.F3T.ActivitiesCache",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [

@@ -86,7 +86,7 @@ namespace AppWidgets {
         // ======
         private void on_help_clicked () {
             try {
-                AppInfo.launch_default_for_uri (_("https://github.com/febrezo/GraniteTemplate/master/doc/support/en/"), null);
+                AppInfo.launch_default_for_uri (_("https://github.com/febrezo/ActivitiesCache/master/doc/support/en/"), null);
             } catch (Error e) {
                 warning (e.message);
             }

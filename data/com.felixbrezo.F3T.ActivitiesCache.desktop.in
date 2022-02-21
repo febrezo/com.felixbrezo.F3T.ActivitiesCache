@@ -1,11 +1,11 @@
 [Desktop Entry]
 
-Name=GraniteTemplate
+Name=ActivitiesCache
 GenericName=Just another template
 Comment=A template for developing new Vala applications using Flatpak
 Categories=Utility;
-Exec=com.felixbrezo.GraniteTemplate
-Icon=com.felixbrezo.GraniteTemplate
+Exec=com.felixbrezo.F3T.ActivitiesCache
+Icon=com.felixbrezo.F3T.ActivitiesCache
 Terminal=false
 Type=Application
 Keywords=Development;Personal;

@@ -1,8 +1,8 @@
-# GraniteTemplate
+# ActivitiesCache
 
 This is a template repository to ease the process of creating GUI with Vala based on GTK and Granite.
 
-![Welcome View](./data/com.felixbrezo.GraniteTemplate-welcome.png)
+![Welcome View](./data/com.felixbrezo.F3T.ActivitiesCache-welcome.png)
 
 ## Dependencies
 
@@ -34,8 +34,8 @@ Build and install for the current user (which does not require root permissions)
 It is recommended to check that it works before doing any change because if not something might be missing:
 
 ```
-flatpak-builder build-dir com.felixbrezo.GraniteTemplate.json --force-clean --install --user
-flatpak run com.felixbrezo.GraniteTemplate
+flatpak-builder build-dir com.felixbrezo.F3T.ActivitiesCache.json --force-clean --install --user
+flatpak run com.felixbrezo.F3T.ActivitiesCache
 ```
 
 It is even easier using `make` because it also deals with translations. 
