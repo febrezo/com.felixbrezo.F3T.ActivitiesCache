@@ -1,4 +1,4 @@
-compile_and_run: clean translate
+compile_and_run: clean
 	flatpak-builder build-dir com.felixbrezo.F3T.ActivitiesCache.json --force-clean --install --user && flatpak run com.felixbrezo.F3T.ActivitiesCache
 run:
 	flatpak run com.felixbrezo.F3T.ActivitiesCache

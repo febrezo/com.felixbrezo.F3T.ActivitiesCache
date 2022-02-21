@@ -22,6 +22,11 @@ install_data(
     install_dir: join_paths(get_option('datadir'), 'icons')
 )
 
+install_data(
+    join_paths('data', meson.project_name() + '-welcome.png'),
+    install_dir: join_paths(get_option('datadir'), 'icons')
+)
+
 # Translate and install our .desktop file
 i18n.merge_file(
     type: 'desktop',

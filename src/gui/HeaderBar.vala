@@ -52,7 +52,7 @@ namespace AppWidgets {
             // ----------------
 
             // New button
-            new_btn = new Gtk.Button.from_icon_name ("document-new", Gtk.IconSize.LARGE_TOOLBAR);
+            new_btn = new Gtk.Button.from_icon_name ("office-database-new", Gtk.IconSize.LARGE_TOOLBAR);
             new_btn.tooltip_text = _("Go to main window");
             this.pack_start (new_btn);
 

@@ -26,9 +26,9 @@ namespace AppWidgets {
         }
 
         construct {
-            this.title = _("ActivitiesCache");
-            this.subtitle = _("A sample application");
-            this.append ("document-new", _("Go to the main window"), _("The standard behaviour of the application"));
+            this.title = _("Welcome to F3T's ActivitiesCache explorer");
+            this.subtitle = _("An easy-to-use forensic application that parses Windows 10 ActivitiesCache.db files");
+            this.append ("office-database-new", _("Open new evidence"), _("Select a new ActivitiesCache.db file from your system and open it"));
             this.append ("info", _("Looking for help?"), _("Get support from online resources"));
         }
     }
